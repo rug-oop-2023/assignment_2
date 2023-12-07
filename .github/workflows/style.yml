@@ -1,18 +1,15 @@
 name: Style check
 
 on:
-  workflow_run:
-    workflows: ["Running code"]
-    types: [completed]
-  pull_request:
+  push:
     branches:
-      - main 
-      - master
-      - dev
+      - main
       - submission
     paths:
-      - 'src/*.py'
-      - '*.py'
+      - "part_1/src/*.py"
+      - "part_1/*.py"
+      - "part_2/src/*.py"
+      - "part_2/*.py"
 
 jobs:
   flake8_py3:
@@ -31,6 +28,6 @@ jobs:
       - name: Run flake8
         uses: suo/flake8-github-action@releases/v1
         with:
-          checkName: 'flake8_py3'
+          checkName: "flake8_py3"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,6 +3,7 @@ name: In-Time Submission
 on:
   pull_request:
     branches:
+      - main
       - submission
 
 jobs:
