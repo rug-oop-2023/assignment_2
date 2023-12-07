@@ -21,4 +21,4 @@ jobs:
         run: pip3 install -r requirements.txt
 
       - name: Test with unittest
-        run: python -m unittest discover -s part_1/tests  -p 'test_*.py'
+        run: python -m unittest discover -s ./part_1/tests  -p 'test_*.py'
