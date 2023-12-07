@@ -23,4 +23,4 @@ jobs:
       - name: Test with unittest
         run: |
           ls -R part_1
-          python -m unittest discover -s part_1/tests  -p 'test_*.py'
+          python -m unittest discover -s part_1/src/tests  -p 'test_*.py'
