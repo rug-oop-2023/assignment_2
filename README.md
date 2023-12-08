@@ -1,7 +1,7 @@
 # OOP - 2023/24 - Assignment 2
 
 This is the base repository for assignment 2.
-Please follow the instructions given in the [PDF NEEDED]() for the content of the exercise.
+Please follow the instructions given in the [PDF](https://brightspace.rug.nl/content/enforced/243046-WBAI045-05.2023-2024.1/assignment%202_v1.1.pdf) for the content of the exercise.
 
 ## How to carry out your assignment
 
