@@ -1,7 +1,7 @@
 import unittest
 import os
 import sys
-sys.path.append(os.getcwd() + "/part_1/src/")
+sys.path.append(os.getcwd() + "/part_1/src/") # noqa: E402
 from testclass import TestClass
 
 
