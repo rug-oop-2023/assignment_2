@@ -4,6 +4,11 @@ on:
   workflow_run:
     workflows: ["Running code"]
     types: [completed]
+  push:
+    branches:
+      - main
+      - set-up-assignment
+      - try
   pull_request:
     branches:
       - main 
