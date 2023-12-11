@@ -1,4 +1,8 @@
 import unittest
+import os
+import sys
+sys.path.append(os.getcwd() + "/part_1/src/")
+from testclass import TestClass
 
 
 class TestTest(unittest.TestCase):
